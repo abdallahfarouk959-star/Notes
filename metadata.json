@@ -1,0 +1,6 @@
+{
+  "name": "مذكراتي - المفكرة اليومية والصلوات",
+  "description": "تطبيق المفكرة اليومية الشخصية باللغة العربية: تنظيم المواعيد والمهام، متتبع الصلوات والسنن والأذكار، وتدوين اليوميات مع حفظ محلي آمن.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

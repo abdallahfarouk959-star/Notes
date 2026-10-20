@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cairo: 'Cairo', 'Tajawal', system-ui, -apple-system, sans-serif;
+    --font-tajawal: 'Tajawal', 'Cairo', system-ui, -apple-system, sans-serif;
+    --font-amiri: 'Amiri', serif;
+  }
+
+  body {
+    font-family: var(--font-cairo);
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.6);
+}
+
+/* Notebook paper lines subtle texture for diary */
+.notebook-paper {
+  background-color: #faf9f5;
+  background-image: linear-gradient(#e5e2d9 1px, transparent 1px);
+  background-size: 100% 2rem;
+  line-height: 2rem;
+}
+
+.notebook-paper-dark {
+  background-color: #1c1917;
+  background-image: linear-gradient(#292524 1px, transparent 1px);
+  background-size: 100% 2rem;
+  line-height: 2rem;
+}
